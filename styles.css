@@ -49,6 +49,7 @@ a {
   font-family: "Fira Code", monospace;
   margin-left: 0.5rem;
   text-decoration: none;
+  text-shadow: 0 1px 2px var(--whiteish);
   color: var(--dark-red);
 }
 
