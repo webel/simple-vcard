@@ -5,6 +5,7 @@
   --orange: #eaac8bff;
 
   --pinkish: #f7b2ad;
+  --light-pink: #e8c3cb;
   --whiteish: #fff4e9;
 
   --shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -40,6 +41,7 @@ h1 {
 
 h2 {
   font-family: "Dancing Script";
+  text-shadow: 0 2px 2px var(--light-pink);
   color: var(--dark-red);
   font-size: 2rem;
   margin: 0.5rem;
@@ -47,9 +49,10 @@ h2 {
 
 a {
   font-family: "Fira Code", monospace;
+  font-weight: bolder;
   margin-left: 0.5rem;
   text-decoration: none;
-  text-shadow: 0 1px 2px var(--whiteish);
+  text-shadow: 0 2px 2px var(--light-pink);
   color: var(--dark-red);
 }
 
