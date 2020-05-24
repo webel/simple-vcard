@@ -1,0 +1,11 @@
+{
+    "name": "simple-vcard",
+    "homepage": "https://webel.github.io/simple-vcard/",
+    "version": "0.1.0",
+    "dependencies": {
+        "gh-pages": "^2.2.0"
+    },
+    "scripts": {
+        "deploy": "gh-pages -d ."
+    }
+}
