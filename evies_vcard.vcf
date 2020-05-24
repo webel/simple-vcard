@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Evita Stenqvist
+N;CHARSET=UTF-8:Stenqvist;Evita;;;
+NICKNAME;CHARSET=UTF-8:Evie
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:evita@stenqvist.co
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:info@viciously.co
+TITLE;CHARSET=UTF-8:Founder & CEO
+ORG;CHARSET=UTF-8:Viciously AB
+URL;CHARSET=UTF-8:stenqvist.co
+URL;type=WORK;CHARSET=UTF-8:viciously.co
+NOTE;CHARSET=UTF-8:More than a one trick pony
+REV:2020-05-23T15:47:08.987Z
+END:VCARD
