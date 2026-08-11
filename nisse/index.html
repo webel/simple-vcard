@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Var är Nils Stenqvist? — Efterlysning, bortsprungen katt</title>
+    <meta
+      name="description"
+      content="Stor, fluffig orange hane med vita tassar. Försvann 25 juni 2026 vid Örnholmsuddvägen på Fågelbrolandet. Ring om du sett honom."
+    />
+    <meta name="author" content="Evita Stenqvist" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#b85c16" />
+
+    <meta property="og:title" content="Var är Nils Stenqvist?" />
+    <meta
+      property="og:description"
+      content="Stor, fluffig orange hane med vita tassar. Försvann 25 juni 2026 på Fågelbrolandet."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stenqvist.co/nisse" />
+    <meta property="og:image" content="https://stenqvist.co/nisse/nisse-og.jpg" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐈</text></svg>"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --ink: #111111;
+        --paper: #ffffff;
+        --muted: #6b6b6b;
+        --rule: #d8d8d8;
+        /* Pulled from Nils' own fur — the poster is mono only because of the printer */
+        --accent: #b85c16;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+          Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        max-width: 38rem;
+        margin: 0 auto;
+        padding: 1.75rem 1.25rem 8rem;
+      }
+
+      .kicker {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(2.5rem, 12vw, 4rem);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 0.95;
+        text-transform: uppercase;
+        margin: 0.5rem 0 1.25rem;
+      }
+
+      h2 {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 2rem 0 0.6rem;
+      }
+
+      hr {
+        border: 0;
+        border-top: 3px solid var(--accent);
+        margin: 0;
+      }
+
+      figure {
+        margin: 1.25rem 0 0;
+      }
+
+      figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #f0f0f0;
+      }
+
+      .lede {
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.35;
+        margin: 1.25rem 0 1rem;
+      }
+
+      p {
+        margin: 0 0 0.9rem;
+      }
+
+      .fine {
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      .personal {
+        border-left: 3px solid var(--accent);
+        padding-left: 1rem;
+        margin: 1.5rem 0;
+      }
+
+      dl {
+        margin: 0;
+        border-top: 1px solid var(--rule);
+      }
+
+      dl div {
+        display: flex;
+        gap: 1rem;
+        padding: 0.65rem 0;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      dt {
+        flex: 0 0 9rem;
+        font-weight: 600;
+        font-size: 0.85rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--muted);
+        padding-top: 0.1rem;
+      }
+
+      dd {
+        margin: 0;
+        flex: 1;
+      }
+
+      ul {
+        padding-left: 1.1rem;
+        margin: 0 0 0.9rem;
+      }
+
+      li {
+        margin-bottom: 0.55rem;
+      }
+
+      .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1rem;
+      }
+
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.9rem 1rem;
+        border: 2px solid var(--ink);
+        text-decoration: none;
+        color: var(--ink);
+      }
+
+      .contact .who {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .contact .num {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        white-space: nowrap;
+      }
+
+      .english {
+        margin-top: 2.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--rule);
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .english strong {
+        color: var(--ink);
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--rule);
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      footer a {
+        color: var(--ink);
+      }
+
+      .actions {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        gap: 0.5rem;
+        padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom));
+        background: rgba(255, 255, 255, 0.97);
+        border-top: 2px solid var(--ink);
+        backdrop-filter: blur(6px);
+      }
+
+      .btn {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3.25rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        border: 2px solid var(--ink);
+      }
+
+      .btn-primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--paper);
+      }
+
+      .btn-secondary {
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      .btn:active {
+        transform: translateY(1px);
+      }
+
+      @media (min-width: 700px) {
+        .actions {
+          position: static;
+          padding: 1.5rem 0 0;
+          background: none;
+          border-top: 0;
+          backdrop-filter: none;
+        }
+        main {
+          padding-bottom: 2.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <p class="kicker">Efterlysning</p>
+      <h1>Var är<br />Nils Stenqvist?</h1>
+      <hr />
+
+      <figure>
+        <img
+          src="nisse.jpg"
+          width="1054"
+          height="1400"
+          alt="Nils, en stor och fluffig orange långhårig hane, sittande i profil"
+        />
+      </figure>
+
+      <p class="lede">
+        Stor, fluffig orange hane med vita tassar. Snäll.
+      </p>
+
+      <p>
+        Troligtvis hoppat från skutan då vi låg på svaj i inre viken nedanför
+        Örnholmsuddvägen på Fågelbrolandet.
+      </p>
+
+      <p>
+        Van sjöman, född ombord. Äkta norrlänning, bekväm i skog och mark.
+      </p>
+
+      <p class="fine">
+        Chippad och registrerad i SVERAK · DjurID · Jordbruksverket.
+      </p>
+
+      <div class="personal">
+        <p>
+          Han bär min pappas själ och namn. Han är djupt saknad.<br />
+          Tacksam för all information och hjälp.
+        </p>
+      </div>
+
+      <h2>Kännetecken</h2>
+      <dl>
+        <div><dt>Namn</dt><dd>Nils, kallas Nisse</dd></div>
+        <div><dt>Färg</dt><dd>Orange, långhårig, vita tassar</dd></div>
+        <div><dt>Kön</dt><dd>Hane</dd></div>
+        <div><dt>Storlek</dt><dd>Stor och kraftig, mycket päls</dd></div>
+        <div><dt>Lynne</dt><dd>Snäll och social, van vid människor</dd></div>
+        <div><dt>ID</dt><dd>Chippad, SVERAK · DjurID · Jordbruksverket</dd></div>
+        <div><dt>Försvann</dt><dd><time datetime="2026-06-25">25 juni 2026</time></dd></div>
+        <div>
+          <dt>Plats</dt>
+          <dd>Inre viken nedanför Örnholmsuddvägen, Fågelbrolandet</dd>
+        </div>
+      </dl>
+
+      <h2>Om du ser honom</h2>
+      <ul>
+        <li>
+          <strong>Jaga honom inte.</strong> En skrämd katt springer och hamnar
+          ännu längre hemifrån.
+        </li>
+        <li>
+          Ta gärna ett foto och notera exakt plats och tid — det hjälper enormt,
+          även om du är osäker.
+        </li>
+        <li>
+          Ring direkt, dygnet runt. Alla observationer är värdefulla, även
+          osäkra.
+        </li>
+        <li>
+          Kommer han fram till dig: ge gärna mat och stanna kvar hellre än att
+          lyfta upp honom.
+        </li>
+        <li>
+          Titta gärna i sjöbodar, garage, båthus, växthus och under altaner.
+          Katter gömmer sig nära och blir lätt instängda.
+        </li>
+      </ul>
+
+      <h2>Ring oss</h2>
+      <div class="contacts">
+        <a class="contact" href="tel:+46709609020">
+          <span class="who">Evita Stenqvist</span>
+          <span class="num">070&#8209;960&nbsp;90&nbsp;20</span>
+        </a>
+        <a class="contact" href="tel:+46703403370">
+          <span class="who">Adam Dahlgren</span>
+          <span class="num">070&#8209;340&nbsp;33&nbsp;70</span>
+        </a>
+      </div>
+
+      <section class="english" lang="en">
+        <p>
+          <strong>Missing cat — have you seen Nils?</strong> Large, fluffy
+          ginger male with white paws, friendly. Likely jumped ship while we lay
+          at anchor in the inner bay below Örnholmsuddvägen, Fågelbrolandet, on
+          <strong>25 June 2026</strong>. He is microchipped. Please don't chase
+          him — note the place and time, and call
+          <a href="tel:+46709609020">+46 70 960 90 20</a> or
+          <a href="tel:+46703403370">+46 70 340 33 70</a> at any hour. Do check
+          your boathouse, shed or garage. Thank you.
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          Tack för att du skannade. ·
+          <a href="https://stenqvist.co">stenqvist.co</a>
+        </p>
+      </footer>
+    </main>
+
+    <nav class="actions" aria-label="Kontakt">
+      <a class="btn btn-primary" href="tel:+46709609020">Ring Evita</a>
+      <a class="btn btn-secondary" href="sms:+46709609020?&body=Jag%20tror%20jag%20sett%20Nils">SMS</a>
+    </nav>
+
+    <!--
+      Räknare. GoatCounter: inga kakor, inga IP-adresser sparas — ingen cookiebanner behövs.
+      Path is pinned to "nisse" in both the script and the no-JS pixel so a
+      trailing slash can't split the count across two entries.
+    -->
+    <script
+      data-goatcounter="https://cookie.goatcounter.com/count"
+      data-goatcounter-settings='{"path": "nisse"}'
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+    <noscript>
+      <img
+        src="https://cookie.goatcounter.com/count?p=nisse"
+        alt=""
+        width="1"
+        height="1"
+        style="position: absolute"
+      />
+    </noscript>
+  </body>
+</html>

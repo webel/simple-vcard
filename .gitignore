@@ -1,2 +1,7 @@
 node_modules/
 .DS_Store
+
+# Source originals for the /nisse poster page — kept out of the published site
+# and out of git history (~41 MB). The web-sized derivatives are committed.
+nisse/PXL_*.jpg
+nisse/*.pdf
